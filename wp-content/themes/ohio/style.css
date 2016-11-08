@@ -1,0 +1,22 @@
+/*
+Theme Name:     Eye on Ohio
+Theme URI:      http://largoproject.org
+Description:    A child theme for the Ohio Center based on the Project Largo parent theme.
+Author:         Adam Schweigert/INN
+Author URI:     http://largoproject.org
+Template:       largo-dev
+Version:        0.1.0
+*/
+
+.embed-container.half {
+  padding-bottom: 28.125%;
+  padding-top: 15px;
+  margin-bottom: 14px;
+}
+@media (max-width: 768px) {
+  .embed-container.half {
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    margin-bottom: 28px;
+  }
+}
